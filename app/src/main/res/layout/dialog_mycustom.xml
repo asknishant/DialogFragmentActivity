@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+
+        >
+
+        <TextView
+            android:id="@+id/dialogtextOk"
+            android:layout_width="109dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="0dp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/dialogText"
+            android:layout_width="129dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/dialogtextOk"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="141dp"
+            android:layout_marginBottom="168dp"
+            android:hint="Enter the text" />
+
+        <TextView
+            android:id="@+id/dialogTextCancel"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="296dp"
+            android:layout_marginBottom="5dp"
+            android:text="TextView" />
+    </RelativeLayout>
+</RelativeLayout>
